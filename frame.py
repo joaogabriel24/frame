@@ -6,7 +6,7 @@ class MainApp(Tk):
         super().__init__()
         self.font = ("Arial",30)
 
-        self.geometry("400x400")
+        self.geometry("900x400")
         self.title("meu app")
         self.create_frames()
         self.create_buttons()
